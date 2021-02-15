@@ -1,6 +1,6 @@
 # Taxalo
 
-Taxalo is an online tool that helps Polish residents to calculate the income tax due on various investments. The currently accepted inputs are:
+Taxalo is an online tool that helps Polish residents to calculate the income tax due on various investments. The following inputs are currently planned to be accepted:
 
 - CSV reports from the [Mintos](https://www.mintos.com) platform 
 

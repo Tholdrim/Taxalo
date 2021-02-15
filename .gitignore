@@ -1,2 +1,7 @@
 # Directories
 .vs/
+bin/
+obj/
+
+# Files
+launchSettings.json
