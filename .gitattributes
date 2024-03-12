@@ -1,0 +1,8 @@
+*           text=auto
+
+*.cs        text diff=csharp
+*.csproj    text eol=crlf
+*.json      text
+*.md        text diff=markdown
+*.sln       text eol=crlf
+*.txt       text
