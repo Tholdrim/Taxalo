@@ -4,5 +4,6 @@
 *.csproj    text eol=crlf
 *.json      text
 *.md        text diff=markdown
+*.props     text
 *.sln       text eol=crlf
 *.txt       text

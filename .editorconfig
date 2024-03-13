@@ -9,7 +9,7 @@ indent_style             = space
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-[*.csproj]
+[*.{csproj,props}]
 
 end_of_line              = crlf
 
@@ -22,6 +22,9 @@ indent_style             = tab
 [*.cs]
 
 indent_size              = 4
+
+dotnet_diagnostic.IDE0270.severity = none
+dotnet_diagnostic.IDE0290.severity = none
 
 csharp_style_implicit_object_creation_when_type_is_apparent       = true:error
 
