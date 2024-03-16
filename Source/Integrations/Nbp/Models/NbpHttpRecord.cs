@@ -4,16 +4,13 @@ namespace Taxalo.Integrations.Nbp
 {
     internal class NbpHttpRecord
     {
-        [JsonRequired]
         [JsonPropertyName("no")]
-        public string TableNumber { get; set; } = null!;
+        public required string TableNumber { get; set; }
 
-        [JsonRequired]
         [JsonPropertyName("effectiveDate")]
-        public DateOnly PublicationDate { get; set; }
+        public required DateOnly PublicationDate { get; set; }
 
-        [JsonRequired]
         [JsonPropertyName("mid")]
-        public decimal AverageExchangeRate { get; set; }
+        public required decimal AverageExchangeRate { get; set; }
     }
 }

@@ -15,7 +15,8 @@ namespace Taxalo.Integrations.Nbp
                 .AddPolicyHandler(GetDefaultRetryPolicy());
 
             services
-                .AddSingleton<IExchangeRateService, ExchangeRateService>();
+                .AddSingleton<IExchangeRateService, ExchangeRateService>()
+                .AddSingleton<IXlsxWriter, NbpWriter>();
 
             return services;
         }

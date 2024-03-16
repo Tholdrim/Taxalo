@@ -4,8 +4,7 @@ namespace Taxalo.Integrations.Nbp
 {
     internal class NbpHttpResponse
     {
-        [JsonRequired]
         [JsonPropertyName("rates")]
-        public IEnumerable<NbpHttpRecord> Rates { get; set; } = null!;
+        public required IEnumerable<NbpHttpRecord> Rates { get; set; }
     }
 }
